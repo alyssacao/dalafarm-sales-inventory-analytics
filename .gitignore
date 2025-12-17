@@ -1,0 +1,19 @@
+# This prevents secrets and data from ever being committed.
+# Environment variables / secrets
+.env
+.env.*
+
+# Raw data files
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# dbt
+target/
+dbt_packages/
+
+# OS files
+.DS_Store
